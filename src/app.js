@@ -30,7 +30,7 @@ server.get(
     })
 );
 
-server.listen(process.env.port || process.env.PORT || 3334, function () {
+server.listen(process.env.port || process.env.PORT || 3335, function () {
     console.log(`\n${server.name} listening to ${server.url}`);
 });
 
