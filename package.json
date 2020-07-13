@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Microsoft Teams Hello World sample app written in ES6 with Bot Framework v4 SDK",
   "scripts": {
-    "start": "nodemon --exec npm run babel-node src/app.js",
+    "start": "nodemon --exec babel-node src/app.js",
     "test": "echo \"Error: no test specified\" "
   },
   "repository": {
@@ -39,5 +39,9 @@
     "gulp": "^4.0.2",
     "gulp-zip": "^5.0.1",
     "nodemon": "^2.0.3"
+  },
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
   }
 }
