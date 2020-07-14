@@ -27,7 +27,7 @@
         {
             "entityId": "com.contoso.helloworld.hellotab",
             "name": "Olamnet Tab",
-            "contentUrl": "https://olamnet.azurewebsites.net/hello",
+            "contentUrl": "https://d4e60dab0a35.ngrok.io/hello",
             "scopes": [
                 "personal"
             ]
@@ -35,7 +35,7 @@
     ],
     "configurableTabs": [
         {
-            "configurationUrl": "https://olamnet.azurewebsites.net/configure",
+            "configurationUrl": "https://d4e60dab0a35.ngrok.io/configure",
             "canUpdateConfiguration": true,
             "scopes": [
                 "team"
