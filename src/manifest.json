@@ -11,7 +11,7 @@
         "termsOfUseUrl": "https://www.microsoft.com/termsofuse"
     },
     "name": {
-        "short": "Hello World",
+        "short": "OLAMNET",
         "full": "Hello World App for Microsoft Teams"
     },
     "description": {
@@ -27,7 +27,7 @@
         {
             "entityId": "com.contoso.helloworld.hellotab",
             "name": "Olamnet Tab",
-            "contentUrl": "https://d4e60dab0a35.ngrok.io/hello",
+            "contentUrl": "https://d8d0255f90c2.ngrok.io/hello",
             "scopes": [
                 "personal"
             ]
@@ -35,7 +35,7 @@
     ],
     "configurableTabs": [
         {
-            "configurationUrl": "https://d4e60dab0a35.ngrok.io/configure",
+            "configurationUrl": "https://d8d0255f90c2.ngrok.io/configure",
             "canUpdateConfiguration": true,
             "scopes": [
                 "team"

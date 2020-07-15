@@ -29,7 +29,7 @@ jobs:
     - name: 'Deploy to Azure Web App'
       uses: azure/webapps-deploy@v1
       with:
-        app-name: 'olamnet'
+        app-name: 'olam'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_a5b711c875a64319bef356acfbb3b112 }}
         package: .
